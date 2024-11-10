@@ -49,6 +49,11 @@
 .session-info {
   margin: auto 0;
   padding: 10px 40px 10px 20px;
+  width: 40%;
+}
+
+.role-list {
+  width: 60%;
 }
 
 .custom-file-upload {
@@ -85,10 +90,22 @@
 
 .file-upload {
   margin: 20px;
+  width: 50%;
 }
 
 .delete-button {
   position: absolute;
   bottom: 20px;
   left: 20px;
+}
+
+.spinner-container {
+  position: relative;
+  width: 100%;
+  height: 75%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999999;
 }
