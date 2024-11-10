@@ -12,5 +12,4 @@ class ExampleCreateApi(Resource):
     def post(self):
         """Получить заметку по идентификатору"""
         data = api.payload
-
         return data
